@@ -1,0 +1,47 @@
+# --------------------
+# Node.js
+# --------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --------------------
+# Next.js
+# --------------------
+.next/
+out/
+
+# --------------------
+# OS・エディタ関連
+# --------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --------------------
+# 環境変数・秘密情報
+# --------------------
+.env
+.env.local
+.env.*.local
+
+# --------------------
+# Vercel / Netlify関連
+# --------------------
+.vercel/
+.netlify/
+
+# --------------------
+# Supabase CLI関連
+# --------------------
+supabase/.temp/
+supabase/migrations/.snapshots/
+
+# --------------------
+# その他の除外対象（必要に応じて）
+# --------------------
+*.log
+*.sqlite
